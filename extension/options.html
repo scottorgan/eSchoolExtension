@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>eSchool Extension Options</title>
+        <script type="text/javascript" src="options.js"></script>
+    </head>
+    <body>
+        <div style="width: 100%; height: 50px">
+            <img src="./images/icon48.png" alt="Logo" style="float: left; padding-top: 4px;">
+            <h2 style="float: left">eSchool Extension for Chrome (for Arkansas K12 Schools)</h2>
+        </div>
+        <div style="width: 50%; margin: 0 auto; margin-top: 50px;">
+            <div style="padding-left: 80px; border: 1px solid red;">
+                <h3>Cognos DSN:</h3>
+                <p>
+                    Data Source Name for navigating directly to Cognos.<br>
+                    This can be found in the address bar of your browser immediate after logging in to Cognos.  Look for the section that says "dsn=".<br>
+                    Example:
+                </p>
+                <p style="margin-left: 60px;">https://cognos.domain.com/SPI/SPI_To_CRN.asp?dsn=<mark>YourDsnHere</mark>&appver=20.4</p>
+                <input type="text" id="cognosDsn" style="margin-bottom: 30px;">
+            </div>
+            <p style="text-align: center">(c) 2018-2022 Scott Organ - <a href="http://www.scottorgan.net" target="_blank">www.scottorgan.net</a></p>
+        </div>
+        <div style="margin-top: 80px;">
+            <button id="buttonSave" style="display: block; margin: 0 auto;">Save Options</button>
+            <p id="status" style="text-align: center; color: red;"></p>
+        </div>
+    </body>
+</html>

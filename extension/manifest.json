@@ -1,0 +1,30 @@
+{
+  "name": "ArK12 eSchool",
+  "version": "22.1",
+  "description": "eSchool Companion extension for Arkansas K12 Schools.",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "background" : {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contentSettings",
+    "contextMenus",
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    },
+    "default_title": "eSchool"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "24": "images/icon24.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

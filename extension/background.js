@@ -34,7 +34,7 @@ chrome.runtime.onInstalled.addListener(function() {
 })
 
 chrome.action.onClicked.addListener(function(activeTab){
-    chrome.tabs.create({url: "http://eschool20.esp.k12.ar.us/"});
+    chrome.tabs.create({url: "http://eschool23.esp.k12.ar.us/"});
 });
 
 chrome.contextMenus.onClicked.addListener(function(info) {
@@ -58,14 +58,14 @@ chrome.contextMenus.onClicked.addListener(function(info) {
             chrome.tabs.create({url: "https://www.triand.com"});
             break;
         case "sso":
-            chrome.tabs.create({url: "https://k12.ade.arkansas.gov/identity/self-service/ade/login.jsf"});
+            chrome.tabs.create({url: "https://adam.ade.arkansas.gov/"});
             break;
     }
 });
 
 chrome.contentSettings.popups.set(
     {
-        'primaryPattern': "https://eschool20.esp.k12.ar.us/*",
+        'primaryPattern': "https://eschool23.esp.k12.ar.us/*",
         'setting': "allow"
     }
 );

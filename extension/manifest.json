@@ -1,6 +1,6 @@
 {
   "name": "ArK12 eSchool",
-  "version": "22.1",
+  "version": "23.7",
   "description": "eSchool Companion extension for Arkansas K12 Schools.",
   "manifest_version": 3,
   "options_page": "options.html",
